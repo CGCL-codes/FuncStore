@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "host": "127.0.0.1",
+    "block_port": 9990,
+    "inode_port": 9991,
+    "workflow_port": 9093,
+    "lifetime": [100, 1000, 10000, 100000]
+  },
+  "storage": {
+    "host": "127.0.0.1",
+    "port": 9099,
+    "num_blocks": 1024
+  },
+  "model": {
+    "host": "127.0.0.1",
+    "port": 9034,
+    "models_path": "",
+    "datasets_path": ""
+  },
+  "block": {
+    "size": 1048576,
+    "usage_track_path": "",
+    "usage_track_period": 1000
+  }
+}
